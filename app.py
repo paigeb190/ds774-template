@@ -12,7 +12,7 @@ def home():
     return render_template('home.html')
 
 @app.route("/documents")
-def courses():
+def documents():
     return render_template('documents.html')
 
 @app.route('/contact', methods=['GET', 'POST'])
