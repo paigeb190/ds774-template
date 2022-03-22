@@ -38,7 +38,7 @@ def issueslog():
         result = contact_form(fname, lname, eaddress, message)
 
         if result:
-            return render_template('issueslog.html', message='Thank you for your submission, please head over to ourr Admin page and login/register to edit your message or see the total output.')
+            return render_template('issueslog.html', message='Thank you for your submission, please head over to our Admin page and login/register to edit your message or see the total output.')
         else:
             return render_template('issueslog.html', message='Error with submission')
     else:
